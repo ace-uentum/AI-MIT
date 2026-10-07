@@ -37,7 +37,8 @@ class ExampleTest extends TestCase
 
         $response
             ->assertOk()
-            ->assertSee('Operations dashboard')
-            ->assertSee($user->email);
+            ->assertSee('AI Delay-Risk Prioritization')
+            ->assertSee('Total Parcels Today')
+            ->assertSee($user->name);
     }
 }
